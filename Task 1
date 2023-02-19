@@ -1,1 +1,14 @@
 First of all we are opening virtual box and entering to the ubuntu.
+In the Desktop we are opening terminal and entering this codes:
+sudo adduser student
+New password: student
+Re-type new password: student
+#Addnig additional information:
+#End of this code
+
+We should log out from current user and login as student.
+When we are choosing the user we should write password(student).
+After login we should open terminal and write this:
+input: whoami
+output: student
+
