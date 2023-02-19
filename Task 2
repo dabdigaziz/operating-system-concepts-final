@@ -22,3 +22,11 @@ We connect ip forwarding so that Linux can function as well as an imaginary comp
 At the end we should control of iptables NAT as well as their support.
 For this manipulations we should write in termninal:
 sudo sysctl -w net.ipv4.ip_forward=1
+sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+sudo iptables -A forward -i eth1 -j ACCEPT
+iptables -vnL -t nat
+#end of this code in terminal
+
+By this code we connect ip forwarding so that Linux can function as well as an imaginary computer. After this we should configure iptables NAT by basing 2 iptables priciples.
+At the end we should control of iptables NAT as well as their support.
+
