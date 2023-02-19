@@ -30,3 +30,12 @@ iptables -vnL -t nat
 By this code we connect ip forwarding so that Linux can function as well as an imaginary computer. After this we should configure iptables NAT by basing 2 iptables priciples.
 At the end we should control of iptables NAT as well as their support.
 
+############################################################################################################################
+Third method connection via Proxy:
+For this method you should download addons for browser. In example we download foxyproxy, after downloading we should find the free proxy server. 
+We found the free proxy server and connected. We can check by website named 2ip.ru
+Before the proxy our ip was casual one like 178.91.37.210
+After how we connected to the proxy our ip in the website was changed to the: 50.235.149.74
+
+By this website we can identify that proxy was successfuly working.
+
