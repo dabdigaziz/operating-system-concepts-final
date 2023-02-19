@@ -15,3 +15,10 @@ ping google.com -c3
 
 by this code we download dhcpcd5 for adding dhcp. after this we added connection dhcp by enp0s3.
 After all this manipulation we are checking the connection by "ping" code. Because of this, we can identify that dhcp successfully added.
+
+########################################################################################################################
+Second method connection via NAT:
+We connect ip forwarding so that Linux can function as well as an imaginary computer. After this we should configure iptables NAT by basing 2 iptables priciples.
+At the end we should control of iptables NAT as well as their support.
+For this manipulations we should write in termninal:
+sudo sysctl -w net.ipv4.ip_forward=1
