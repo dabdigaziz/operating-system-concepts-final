@@ -1,0 +1,17 @@
+In this file will write how we doing connection type for internet 
+
+First method Direct IP connection: 
+First of all we should install network-manager in terminal. That's why we should write:
+sudo apt-get install network-manager
+#end of this code 
+
+after this we should add DHCP connection to enp0s3, then we should check by pinging services.
+For this we should write this one:
+sudo apt-get install dhcpcd5
+ip link show
+sudo dhcpcd enp0s3
+ping google.com -c3
+#end of this code
+
+by this code we download dhcpcd5 for adding dhcp. after this we added connection dhcp by enp0s3.
+After all this manipulation we are checking the connection by "ping" code. Because of this, we can identify that dhcp successfully added.
