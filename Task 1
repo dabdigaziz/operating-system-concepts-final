@@ -3,7 +3,7 @@ In the Desktop we are opening terminal and entering this codes:
 sudo adduser student
 New password: student
 Re-type new password: student
-#Addnig additional information:
+#Adding additional information:
 #End of this code
 
 We should log out from current user and login as student.
