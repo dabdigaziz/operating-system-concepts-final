@@ -44,4 +44,4 @@ sudo update-grub
 
 Step 8. Reboot and run by new kernel
 
-Successfully our kernel module is upgraded to our custom module
+Successfully our kernel module is upgraded to our custom module.
