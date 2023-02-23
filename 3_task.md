@@ -1,5 +1,5 @@
 
-Before starting, my kernel module is
+Before starting, our kernel module is
 
 Step 1. Set-up the environment
 Download Kernel 5.16.9 source code
@@ -44,4 +44,4 @@ sudo update-grub
 
 Step 8. Reboot and run by new kernel
 
-Successfully my kernel module is upgraded to my custom module
+Successfully our kernel module is upgraded to our custom module
