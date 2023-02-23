@@ -27,4 +27,4 @@ output: Linux
 
 #End of this code
 
-Because of this manipulation we can identify that we created a new user and gave the root permissions in the Linux OS.
+Because of this manipulation we can identify that we created a new user and gave the root permissions in the Linux OS..
